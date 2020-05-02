@@ -1,6 +1,7 @@
 # **SOAL SHIFT SISOP 20 MODUL 4**
 
-**Soal Nomor 1**
+**----------Soal Nomor 1----------**
+
 Variabel dirpath digunakan untuk mendefinisikan direktori yang akan di mount.
 
 Variabel cs digunakan untuk deklarasi karakter caesar chipper.
@@ -18,7 +19,8 @@ Struct fuse_operations xmp_oper berisi fungsi2 yang akan diimplementasiin ke fus
 Fungsi main memanggil fungsi fuse main untuk pembuatan fuse.
 
 
-**Soal Nomor 4**
+**----------Soal Nomor 4----------**
+
 Logpath untuk menyimpan path file fs.log
 
 Fungsi writelog akan dipanggil di dalam semua fungsi fuse (kecuali getattr dan readdir). Fungsi writelog mempunyai 2 parameter. Yang prtama level, berisi string level log yang gunanya untuk warning atau info, yang kedua cmd_desc yang gunanya sebagai syscall dan path file. Variabel fp berisi fungsi fopen. Fungsi fopen ini menerima 2 parameter. Parameter pertama, logpath, berisi path file dari sf.log. Parameter kedua berisi option file "a+" yang ditujukan ke parameter pertama. Pada tahap ini file akan dibuka untuk melakukan reading dan penambahan isi ke dalam file . Jika file belum ada, maka file akan dibuat otomatis.
